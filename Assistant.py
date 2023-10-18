@@ -54,8 +54,8 @@ def input_instruction():
 
 def get_weather(city):
     # install & import pyown library
-    # fir api key read the documentation of pyowm library
-    api_key = 'b8b003a3400a284c51c635679cab555c'
+    # for api key read the documentation of pyowm library on google
+    api_key = 'Your_api_key'
     owm = OWM(api_key)
     mgr = owm.weather_manager()
     try:
